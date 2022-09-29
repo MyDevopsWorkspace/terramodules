@@ -7,7 +7,6 @@ variable "ami_id" {
 variable "instance_type" {
   description = "specify the instance type"
   type        = string
-  default = ""
 }
 
 variable "tags" {
