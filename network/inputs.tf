@@ -45,7 +45,6 @@ variable "public_subnets_az" {
 variable "vpc_name" {
   description = "specify the Name for the VPC"
   type = string
-  default        = ""
 }
 
 variable "tags" {
